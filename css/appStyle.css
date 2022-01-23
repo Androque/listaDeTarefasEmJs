@@ -22,6 +22,10 @@ body {
   overflow-x: hidden; 
 }
 
+.todo-list::-webkit-scrollbar {
+  display: none;
+}
+
 .title {
   border-bottom: 1px solid rgba(246, 241, 209, 0.5);
   font-size: 1.5rem;
