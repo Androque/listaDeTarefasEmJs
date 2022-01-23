@@ -1,0 +1,34 @@
+:root {
+  --background: #0b2027;
+  --branco: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.logo {
+    width: 10%;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.cabecalho .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuList {
+    color: var(--branco);
+    margin-right: 1rem;
+
+}
